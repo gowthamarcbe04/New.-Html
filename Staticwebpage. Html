@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Static Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8ff; /* Light blue background */
+        }
+        header {
+            background-color: #4682b4; /* Steel blue */
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #87cefa; /* Light sky blue */
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #add8e6; /* Lighter blue */
+            color: black;
+        }
+        .content {
+            padding: 20px;
+        }
+        .content h2 {
+            color: #333;
+        }
+        footer {
+            background-color: #4682b4; /* Steel blue */
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to Vishnu Lodge</h1>
+</header>
+
+<img src="C:\Users\Pavithran\Pictures\Screenshots\Screenshot 2024-07-09 160322.png" alt="Image Description">
+
+<div class="content">
+    <section id="home">
+        <h2>Home</h2>
+        <p> Vishnu Lodge.</p>
+    </section>
+
+    <section id="about">
+        <h2>About</h2>
+        <p>I am Vishnu Prasad.</p>
+    </section>
+
+    <section id="services">
+        <h2>Services</h2>
+        <p>I offer Room Services.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>You can contact me anytime 24/7.</p>
+    </section>
+</div>
+
+<footer>
+    <p>Vishnu Residency, Eachanari.</p>
+</footer>
+
+</body>
+</html>
